@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Cabin&family=Comfortaa&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=VT323&display=swap');
+
+:root{
+	--colorprincipal: #0570b0;
+	--colorsecundario: #034e7b;
+	--colortexto: white;
+	--colorbarraalta: #0C5F17;
+	--colorbarramedia: #B13479;
+	--colorbarrabaja: #7D0019;
+}
+
+body{
+	background: var(--colorprincipal);
+    font-family: "Atkinson Hyperlegible", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 400;
+  	font-style: normal;
+}
+
+div.container{
+	width:min(800px, 90%);
+	margin: 0 auto;
+	padding: 1rem;
+	background: var(--colorsecundario);
+	text-align: left;
+}
+
+h1{
+	font-weight: lighter;
+	font-size: calc(2rem + 3vw);
+	margin: 0;
+	color: var(--colortexto);
+}
+
+p{
+	margin-left: 1rem;
+	color: var(--colortexto);
+}
+
+a{
+	color: var(--colortexto);
+	transition: color ease 0.5s;
+}
+
+a:hover{
+	color: hotpink;
+	transition: color ease 0.5s;
+}
+
+a:visited{
+	color: black;
+}
+
+table, th, td{ 
+	border-bottom: 0.5px solid white; 
+	border-collapse: collapse;
+	color: var(--colortexto); 
+}
+
+th, td{
+	padding: 1rem;
+	margin-left: 1;
+}
+ 
+th:nth-child(2), td:nth-child(2){
+	text-align: center;
+}  
+
+text{
+	color: var(--colortexto);
+}  
+
+

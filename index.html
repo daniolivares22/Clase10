@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Las notas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>NOTAS CURSO</h1>
+      <p>Mejoré los colores consultando a <a href="https://colorbrewer2.org/#type=sequential&scheme=GnBu&n=8" target="_blank">COLORBREWER 2.0</a></p>
+      <p>Cambié la tipografía consultando a <a href="https://fonts.google.com/specimen/Atkinson+Hyperlegible" target="_blank">GOOGLE FONTS</a></p>
+      <table>
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Nota</th>
+            <th>Simbolo</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <p>La nota promedio es de <span id="promedio"></span></p>
+
+      <svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+        <path
+            fill="none"
+            stroke="#0570b0"
+            d="M20,50 C20,-50 180,150 180,50 C180-50 20,150 20,50 z" />
+
+        <text>🪩
+            <animateMotion
+            dur="10s"
+            repeatCount="indefinite"
+            path="M20,50 C20,-50 180,150 180,50 C180-50 20,150 20,50 z" />
+        </text>
+    </svg>
+
+    <object data="graph.svg" type="image/svg+xml">
+        <img src="graph.png"/>
+    </object>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+   
+</html>
